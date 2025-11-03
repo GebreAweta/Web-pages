@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(52, 164, 238);
+    position: fixed;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    top: 0;
+    left: 0;
+  
+}
+
+.logo h1{
+    font-size: 1rem;
+    font-weight: bold; 
+}
+ul{
+    display: flex;
+    padding: 10px;
+}
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+ul li a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   padding: 10px;
+}
+ul li a:hover{
+   color: rgb(231, 174, 109);
+}
+.about{
+    padding: 20px;
+    background-color: rgb(217, 228, 228);
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+.cont{
+    max-width: 100%;
+    margin-top: 4rem;
+}
+.bold{
+    font-size: 200%;
+    color: blue;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    width: 100%;
+}
+/* login form */
+.login-form, .regs-form{
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    margin-top: 4rem;
+}
+.text{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+form{
+    
+    width: 350px;
+    border: 1px solid rgb(231, 228, 228);
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
+/* .input{
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+} */
+ .input{
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    font-size: 1rem;
+ }
+.btn{
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(52, 164, 238);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(31, 119, 202);
+}
+.frg{
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+.signup{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.signup:hover{
+    background-color: darkgreen;
+}
+.paragraph{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+hr{
+    margin: 15px 0;
+}
+.paragraph a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}

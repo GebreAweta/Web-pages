@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1>Woldia University</h1>
+        </div>
+        <ul>
+            <li><a href="./index.html">About</a></li>
+            <li><a href="#contact">Contacts</a></li>
+            <li><a href="./Student-table.html">Student</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./registration.html">Register</a></li>
+        </ul>
+    </div>
+    
+        <div class="content">
+            <form action="">
+                <h4>Student Registration form</h4>
+                <label for="" class="form">First Name<label><br>
+                <input type="text" required placeholder="enter First name" class="input"><br>
+                <label for="" class="form">Last Name<label><br>
+                <input type="text" required placeholder="enter Last name" class="input"><br>
+                <label for="" class="form">Enter your email<label><br>
+                <input type="" required placeholder="enter email" class="input"><br>
+                <label for="" class="form">Gender<label>
+                <input type="radio" name="gender" >
+                <label for="">Male</label>
+                <input type="radio" name="gender" >
+                <label for="">Female</label><br>
+                <label for="" class="form">Enter your password<label><br>
+                <input type="password" required placeholder="enter password" class="input" 
+                    pattern="^[A-Z](?=.*\d)(?=.*[@$!%*?&]){8,}"
+                    title="Password must begin with an uppercase letter, 
+                    include at least one number and 
+                    one special character,and be at least 8 characters long."><br>
+                <label for="">Re-enter password</label><br>
+                <input type="password" required placeholder="Re-enter password" class="input"
+                    pattern="^[A-Z](?=.*\d) (?=.*[@$!%*?&]){8,}$"
+                    title="Password must begin with an uppercase letter,
+                     include at least one number and 
+                     one special character,and be at least 8 characters long."
+                           ><br>
+                <input type="button" value="Clear" class="btn">
+                <input type="submit" value="Register" class="btn"><br>
+                <hr>
+                <p class="paragraph">have an account?    <a href="./login.html">Login</a></p>
+            </form>
+        </div>
+   
+
+     <footer>
+        <h2>&copy;Copy right reserved, 2025 GG, Woldia University</h2>
+    </footer>
+</body>
+</html>
